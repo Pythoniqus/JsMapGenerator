@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JsMapGenerator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <body>
+        <div id="top-bar"></div>
+        <div id="passage-border">
+            <div id="passage">
+                <div id="loading-cover" class="closed"></div>
+                <div id="map-container"></div>
+            </div>
+        </div>
+
+        <div id="left-ui-bar">
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="cur-block-name">
+                <div class="content"></div>
+            </div>
+            <div id="cur-block-desc">
+                <div class="content"></div>
+            </div>
+            <div id="cur-block-pos">
+                <div class="content"></div>
+            </div>
+        </div>
+        <div id="right-ui-bar">
+            <button onclick="switchGenerationType()">Maze Switch</button>
+            <label id="imgName"></label>
+            <div class="custom-box">
+                <div class="side-bust">
+                    <div id="cur-block-image">
+                        <div class="content"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+
+    </body>
+
+</html>
