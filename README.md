@@ -18,6 +18,7 @@ https://github.com/cyrusfirheir/BlockyMaps
 - Switch between different maze generation types.
 - Place a player at a random position within the maze.
 - Convert unneeded walls to invisible walls for better visualization.
+- You can play the generated map :D
 
 ## Installation
 To set up the project locally just download the latest release, extract the file contents and open index.html
@@ -28,6 +29,9 @@ To generate a maze, simply open the `index.html` file in a web browser. The init
 
 ### Switch Maze Generation Type
 Click the "Switch Generation Type" button to toggle between Prim's Algorithm and Room-based Generation.
+
+### Navigation
+You can move around with WASD or the arrow keys, and you can zoom in and out with PageDn and PageUp.
 
 ## Maze Generation Algorithms
 ### Prim's Algorithm
