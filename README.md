@@ -19,16 +19,7 @@ This project is a maze generation tool using two different algorithms: Prim's Al
 - Convert unneeded walls to invisible walls for better visualization.
 
 ## Installation
-To set up the project locally, follow these steps:
-
-1. **Clone the repository**
-    ```bash
-    git clone https://github.com/yourusername/maze-generator.git
-    cd maze-generator
-    ```
-
-2. **Open the project**
-    Open the `index.html` file in your preferred web browser to view the maze generator.
+To set up the project locally just download the latest release, extract the file contents and open index.html
 
 ## Usage
 ### Generating a Maze
